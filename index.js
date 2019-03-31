@@ -11,4 +11,16 @@
 
   document.querySelector('.img1').setAttribute('src', diceSource1)
   document.querySelector('.img2').setAttribute('src', diceSource2)
+
+
+
+  if (dice1 > dice2){
+    console.log('Winner is player 1')
+  } else if (dice1 === dice2) {
+    console.log('It is even');
+    
+  } else {
+    console.log('Winner is player 2');
+    
+  }
   
