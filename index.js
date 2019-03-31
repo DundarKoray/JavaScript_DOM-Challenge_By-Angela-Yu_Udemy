@@ -15,11 +15,14 @@
 
 
   if (dice1 > dice2){
+    document.querySelector('h1').textContent = 'Player 1 Won'
     console.log('Winner is player 1')
   } else if (dice1 === dice2) {
+    document.querySelector('h1').textContent = 'No winner, roll it again'
     console.log('It is even');
     
   } else {
+    document.querySelector('h1').textContent = 'Player 2 Won'
     console.log('Winner is player 2');
     
   }
